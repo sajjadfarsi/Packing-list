@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    justify-content: center;
+    gap:4rem;
+    width: 100%;
+    color: #fff;
+    height: 23rem;
+
+}
+
+.container {
+    background-color: #5a3e2b;
+    height: 30rem;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    gap: 2rem;
+}
+.options select {
+    border: none;
+    text-align: center;
+    width: 15rem;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 3rem;
+    background-color: #ffebb3;
+    
+}
+.options button {
+    border: none;
+    text-align: center;
+    width: 8rem;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background-color: #ffebb3;
+}

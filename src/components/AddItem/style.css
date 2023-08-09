@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  background-color: rgb(255, 111, 0);
+  padding: 2rem 0;
+}
+.form h3 {
+  margin-right: 1rem;
+  
+}
+.form select {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 1.4rem;
+  text-align: center;
+  border:none;
+  margin: 0 10px;
+  color: #5a3e2b;
+  font-family: inherit;
+  background-color: #ffebb3;
+}
+.form input {
+  width: 14rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  border: none;
+  margin: 0 10px;
+  text-align: center;
+  color: #5a3e2b;
+  font-family: inherit;
+  background-color: #ffebb3;
+}
+.form button {
+width: 7rem;
+height: 3rem;
+border-radius: 1.5rem;
+border:none;
+color: #5a3e2b;
+font-family: inherit;
+background-color: #ffebb3;
+}

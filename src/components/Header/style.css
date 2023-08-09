@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Spooky Hollow Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(SpookyHollow.otf)
+    }
+
+.header {
+  background-color: orange;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    font-family:'Spooky Hollow Regular' ;
+    color: #606060;
+}
