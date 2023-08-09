@@ -6,7 +6,7 @@ export default function List({ items, setItem }) {
   const [sortby, setSortby] = useState("input");
   const sortedItems = items.slice().sort((a, b) => {
     if (sortby === "input") return 0;
-    if (sortby === "checked") return +a.checked - +b.checked;
+    if (sortby === "packedStatus") return (+a.packed - +b.packed);
     if (sortby === "description")
       return a.description.localeCompare(b.description);
   });

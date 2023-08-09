@@ -2,6 +2,7 @@
 import Header from "../Header";
 import AddItem from "../AddItem";
 import List from "../List";
+import Footer from "../Footer";
 import { useState } from "react";
 //style
 import "./App.css";
@@ -12,9 +13,10 @@ function App() {
   };
   return (
     <div className="App">
-      <Header  />
+      <Header />
       <AddItem onAddItem={handleAddItem} />
-      <List items={items} setItem={setItem}/>
+      <List items={items} setItem={setItem} />
+      <Footer items={items} />
     </div>
   );
 }

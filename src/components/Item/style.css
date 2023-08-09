@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.7rem;
+  height: 5rem;
+}
+.item button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+.item input[type="checkbox"] {
+  height: 1.2rem;
+  width: 1.2rem;
+  accent-color: #e5771f;
+}

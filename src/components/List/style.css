@@ -1,16 +1,15 @@
 .list {
     display: flex;
-    justify-content: center;
     gap:4rem;
     width: 100%;
     color: #fff;
-    height: 23rem;
-
+    height: 22rem;
+    padding: 0 5rem;
 }
 
 .container {
     background-color: #5a3e2b;
-    height: 30rem;
+    /* height: 30rem; */
 }
 .options {
     display: flex;
